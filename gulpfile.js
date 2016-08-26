@@ -4,6 +4,8 @@ var rename = require("gulp-rename");
 var sourcemaps = require('gulp-sourcemaps');
 
 Files = {
+    css:
+        ['./responsive.gs/reset.css', './responsive.gs/responsive.gs.12col.css'],
     scss:
         ['./sass/_init.scss', './sass/_header.scss', './sass/_content.scss', './sass/_footer.scss'],
     js:
@@ -28,5 +30,6 @@ gulp.task('default', function() {
 
     gulp.watch(Files.html);
     gulp.watch(Files.scss, ["sass"]);
+    gulp.watch(Files.css, ["sass"]);
     
 });
