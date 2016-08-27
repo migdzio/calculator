@@ -10,7 +10,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	*behavior: url(boxsizing.htc); 
+	*behavior: url(./responsive.gs/boxsizing.htc); 
 	/*	If you need support for IE7 and lower make 
 		sure the boxsizing.htc file is linked properly.
 		More info here:  https://github.com/Schepp/box-sizing-polyfill */
