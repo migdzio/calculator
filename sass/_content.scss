@@ -33,7 +33,29 @@ article {
         }
     }
     .calc_space { // Nie jestem pewien, czy takie ustawienie jest właściwe, ale na razie może być.
-        line-height: 0.5em;
+        min-height: 0.5em;
+    }
+    .calc_display {
+        background: #999999;
+        min-height: 2.5em;
+        display: flex;
+        div:first-child, div:last-child {
+            flex-grow: 1;
+            background: rgba(123, 156, 207, 1);
+            width: 1em;
+        }
+        div:nth-child(2) { /* Real display div */
+            flex-grow: 10;
+            p {
+                width: 100%;
+                height: 100%;
+                line-height: 2.5em;
+                font-weight: 700;
+                font-size: 1.2em;
+                letter-spacing: 0.2em;
+                padding: 1.5%;
+            }
+        }
     }
 }
 
