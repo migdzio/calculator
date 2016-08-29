@@ -68,14 +68,16 @@ article {
         }
         div.col.span_10 {
             flex-grow: 10;
+            flex-direction: row;
             display: flex;
             div {
-                width: 100%;
+                width: 25%;
                 height: 100%;
                 background: #333366;
                 line-height: 2.5em;
                 text-align: center;
                 margin: auto 2%;
+                flex-direction: row;
             }
         }
     }
