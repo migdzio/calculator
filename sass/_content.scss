@@ -9,7 +9,28 @@ article {
     background: rgba(123, 156, 207, 1);
     height: 33.5em;
     .calc_header {
-    height: 2em;
+        height: 2em;
+        position: relative;
+        font-weight: 700;
+        .span_12 p {
+            display: inline-block;
+            width: 45%;
+            vertical-align: middle;
+            padding: 1.5% 1.5% 1.5% 1.5%;
+            margin: 0;
+            position: absolute;               
+                top: 100%;                         
+            transform: translate(5%, -50%);
+        }
+        .span_12 div {
+            display: inline-block;
+            width: 99%;
+            text-align: center;
+            padding: 1.5% 1% 1% 60%;
+            hr {
+                width: 6em;
+            }
+        }
     }
 }
 
