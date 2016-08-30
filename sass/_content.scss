@@ -64,22 +64,24 @@ article {
         margin-top: 1%;
         display: flex;
         div:first-child, div:last-child {
-            flex-grow: 1;
-            width: 1em;
+            // flex-grow: 1; // Te ustawienia zaburzają wygląd na telefonie
+            // width: 1em;
         }
         div.col.span_10 {
-            flex-grow: 10;
-            flex-direction: row;
-            align-content: space-between;
+            // flex-grow: 10;
+            // flex-direction: row;
+            // align-content: space-between;
             display: flex;
+            // display: inline-block;
             #pwr_on, #pwr_off, #sqrt_root, #percent {
                 min-width: 4.2em;
+                max-width: 6em;
                 // height: 100%;
                 background: #333366;
                 line-height: 2.5em;
                 text-align: center;
                 margin: 2% 2%;
-                flex-direction: row;
+                // flex-direction: row;
             }
         }
     }
