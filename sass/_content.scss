@@ -69,6 +69,7 @@ article {
         div.col.span_10 {
             // flex-grow: 10;
             flex-direction: row;
+            align-content: space-between;
             display: flex;
             div {
                 width: 10em;
