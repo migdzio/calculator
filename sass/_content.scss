@@ -156,6 +156,34 @@ article {
         width: 100%;
         margin-top: 1%;
         display: flex;
+        font-weight: 700;
+        div:first-child, div:last-child {
+        }
+        div.col.span_10 {
+            display: flex;
+            #one, #two, #three, #add {
+                min-width: 4.2em;
+                max-width: 6em;
+                background: #ffffff;
+                color: #333366;
+                line-height: 2.5em;
+                text-align: center;
+                margin: auto 2%;
+            }
+            #add {
+                background: #333366;
+                color: #ffffff;
+                // min-height: 5em;
+                // line-height: 5em;
+            }
+        }
+    }
+/***************** LEPIEJ NIE ODKOMENTOWYWAĆ TEGO SZAJSU    
+    .lr_3 {
+        min-height: 2.5em;
+        width: 100%;
+        margin-top: 1%;
+        display: flex;
         flex-flow: row nowrap;
         font-weight: 700;
         div:first-child, div:last-child {
@@ -181,6 +209,32 @@ article {
                 color: #ffffff;
                 min-height: 5em;
                 line-height: 5em;
+            }
+        }
+    }
+************************************/
+    .lr_4 {
+        min-height: 2.5em;
+        width: 100%;
+        margin-top: 1%;
+        display: flex;
+        font-weight: 700;
+        div:first-child, div:last-child {
+        }
+        div.col.span_10 {
+            display: flex;
+            #zero, #point, #equal {
+                min-width: 4.2em;
+                max-width: 6em;
+                background: #ffffff;
+                color: #333366;
+                line-height: 2.5em;
+                text-align: center;
+                margin: auto 2%;
+            }
+            #equal {
+                background: #333366;
+                color: #ffffff;
             }
         }
     }
