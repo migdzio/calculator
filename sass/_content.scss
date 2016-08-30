@@ -1,13 +1,13 @@
 article {
 	// line-height: 5em;
-    height: 35em; // Po zrobieniu całego kalkulatora - tę linię można (chyba) usunąć. 
+    height: 40em; // Po zrobieniu całego kalkulatora - tę linię można (chyba) usunąć. 
 	text-align: center;
 	background: #a2bfb8;
 }
 
 .calc_body {
     background: rgba(123, 156, 207, 1);
-    height: 33.5em;
+    height: 98%;
     .calc_header {
         height: 2em;
         position: relative;
@@ -74,7 +74,7 @@ article {
                 background: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
             #pwr_on {
                 background: #990033;
@@ -97,7 +97,7 @@ article {
                 background: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
         }
     }
@@ -118,7 +118,7 @@ article {
                 color: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
             #multiply {
             background: #333366;
@@ -143,7 +143,7 @@ article {
                 color: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
             #distract {
                 background: #333366;
@@ -158,9 +158,12 @@ article {
         display: flex;
         font-weight: 700;
         div:first-child, div:last-child {
+            flex-grow: 1;
+            width: 2%;
         }
         div.col.span_10 {
             display: flex;
+            flex-grow: 10;
             #one, #two, #three, #add {
                 min-width: 4.2em;
                 max-width: 6em;
@@ -168,7 +171,7 @@ article {
                 color: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
             #add {
                 background: #333366;
@@ -220,21 +223,27 @@ article {
         display: flex;
         font-weight: 700;
         div:first-child, div:last-child {
+            flex-grow: 1;
+            width: 2%;
         }
         div.col.span_10 {
             display: flex;
-            #zero, #point, #equal {
+            flex-grow: 10;
+            #zero, #point, #equal, #empty {
                 min-width: 4.2em;
                 max-width: 6em;
                 background: #ffffff;
                 color: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
             #equal {
                 background: #333366;
                 color: #ffffff;
+            }
+            #empty {
+                background: rgba(123, 156, 207, 1);
             }
         }
     }
