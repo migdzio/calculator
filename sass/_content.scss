@@ -61,7 +61,7 @@ article {
     .dr_1 {
         min-height: 2.5em;
         margin-top: 1%;
-        display: flex;
+        // display: flex;
         div:first-child, div:last-child {
             // flex-grow: 1;
             width: 1em;
@@ -78,7 +78,7 @@ article {
                 line-height: 2.5em;
                 text-align: center;
                 margin: auto 2%;
-                flex-direction: row;
+                // flex-direction: row;
             }
         }
     }
