@@ -64,89 +64,73 @@ article {
         margin-top: 1%;
         display: flex;
         div:first-child, div:last-child {
-            // flex-grow: 1; // Te ustawienia zaburzają wygląd na telefonie
-            // width: 1em;
         }
         div.col.span_10 {
-            // flex-grow: 10;
-            // flex-direction: row;
-            // align-content: space-between;
             display: flex;
-            // display: inline-block;
             #pwr_on, #pwr_off, #sqrt_root, #percent {
                 min-width: 4.2em;
                 max-width: 6em;
-                // height: 100%;
                 background: #333366;
                 line-height: 2.5em;
                 text-align: center;
                 margin: 2% 2%;
-                // flex-direction: row;
             }
         }
     }
     .dr_2 {
         min-height: 2.5em;
-        margin-top: 2%;
+        width: 100%;
+        margin-top: 1%;
         display: flex;
         div:first-child, div:last-child {
-            flex-grow: 1;
-            width: 1em;
         }
         div.col.span_10 {
-            flex-grow: 10;
             display: flex;
-            div {
-                width: 100%;
-                height: 100%;
+            #mem_clr, #mem_dist, #mem_add, #division {
+                min-width: 4.2em;
+                max-width: 6em;
                 background: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
         }
     }
     .lr_1 {
         min-height: 2.5em;
-        margin-top: 2%;
+        width: 100%;
+        margin-top: 1%;
         display: flex;
         div:first-child, div:last-child {
-            flex-grow: 1;
-            width: 1em;
         }
         div.col.span_10 {
-            flex-grow: 10;
             display: flex;
-            div {
-                width: 100%;
-                height: 100%;
-                background: #ffffff;
-                color: #666699;
+            #seven, #eight, #nine, #multiply {
+                min-width: 4.2em;
+                max-width: 6em;
+                background: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
         }
     }
     .lr_2 {
         min-height: 2.5em;
-        margin-top: 2%;
+        width: 100%;
+        margin-top: 1%;
         display: flex;
         div:first-child, div:last-child {
-            flex-grow: 1;
-            width: 1em;
         }
         div.col.span_10 {
-            flex-grow: 10;
             display: flex;
-            div {
-                width: 100%;
-                height: 100%;
-                background: #ffffff;
-                color: #666699;
+            #four, #five, #six, #distract {
+                min-width: 4.2em;
+                max-width: 6em;
+                background: #333366;
                 line-height: 2.5em;
                 text-align: center;
-                margin: auto 2%;
+                margin: 2% 2%;
             }
         }
     }
