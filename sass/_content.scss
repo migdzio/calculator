@@ -60,6 +60,7 @@ article {
     }
     .dr_1 {
         min-height: 2.5em;
+        width: 100%;
         margin-top: 1%;
         display: flex;
         div:first-child, div:last-child {
@@ -71,8 +72,8 @@ article {
             flex-direction: row;
             align-content: space-between;
             display: flex;
-            div {
-                width: 6em;
+            #pwr_on, #pwr_off, #sqrt_root, #percent {
+                min-width: 4.2em;
                 // height: 100%;
                 background: #333366;
                 line-height: 2.5em;
