@@ -263,8 +263,19 @@ article {
 
 
 aside {
-	line-height: 20em;
-	text-align: center;
+	min-height: 40em;
 	background: #b3d1c9;
+    position: relative;
+    h3 {
+        position: relative;
+            top: 8em;
+            // left: 50%;
+        // margin-right: -50%;
+        // transform: translate(-50%, -50%);
+        font-size: 1.7em;
+        line-height: 2em;
+        text-align: center;
+        vertical-align: middle;
+    }
 }
 
